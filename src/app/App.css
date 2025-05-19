@@ -13,6 +13,7 @@ body {
 	align-items: center;
 	align-content: center;
 	justify-content: center;
+	margin: 10px;
 	min-height: 100vh;
   	gap: 40px;
 	z-index: 1;
@@ -155,4 +156,41 @@ footer p {
 	font-size: 14px;
 	font-weight: 600;
   	color: #084b4e;
+}
+
+@media (max-width: 768px) {
+	.main-content-container {
+		flex-direction: column;
+	}
+	.title {
+		width: 100%;
+		padding: 0;
+		margin: 20px 40px 0 40px;
+	}
+	.title h1 {
+		font-size: 32px;
+	}
+	.title h2 {
+		font-size: 20px;
+	}
+	.title-caption {
+		margin-top: 40px;
+		margin-bottom: 40px;
+		font-size: 18px;
+	}
+	.links-container{
+		align-items: center;
+		margin-bottom: 40px
+	}
+	.projects {
+		width: 100%;
+		padding: 20px 40px;
+	}
+	.projects h2 {
+		font-size: 26px;
+	}
+	footer {
+		width: 80%;
+		padding: 20px;
+	}
 }
