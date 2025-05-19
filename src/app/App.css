@@ -1,0 +1,158 @@
+body {
+  	background-color: #071952;
+	background-image: url("https://www.transparenttextures.com/patterns/classy-fabric.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  	padding: 0;
+  	margin: 0;
+}
+
+.app-container {
+  	display: flex;
+  	flex-direction: column;
+	position: relative;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	min-height: 100vh;
+  	gap: 40px;
+	z-index: 1;
+}
+
+.main-content-container {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	margin-bottom: 40px;
+}
+
+.title {
+	display: block;
+  	width: 50%;
+  	align-items: center;
+	align-content: center;
+  	gap: 10px;
+  	padding: 40px 100px 20px 100px;
+}
+
+.title-prefix {
+  	font-weight: 400;
+	font-size: 20px;
+  	color: #97FEED;
+}
+
+.title h1 {
+  	margin-bottom: 5px;
+  	font-weight: 500;
+	font-size: 42px;
+  	color: lightgray;
+}
+
+.title h2 {
+  	margin-top: 0;
+  	font-weight: 500;
+	font-size: 38px;
+  	color: darkgray;
+}
+
+.title-caption {
+  	color: darkgray;
+	font-size: 20px;
+  	margin-bottom: 100px;
+	font-weight: 500;
+}
+
+.links-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.profile-link {
+	display: inline-flex;
+	align-items: center;
+  	font-weight: 400;
+  	font-size: 20px;
+	letter-spacing: 1px;
+	background-color: transparent;
+	color: #97FEED;
+	border: transparent;
+	border-radius: 20px;
+	margin: 16px 0;
+	text-decoration: none;
+	gap: 10px;
+}
+
+.projects {
+	display: block;
+  	width: 40%;
+  	align-items: center;
+	align-content: center;
+  	padding: 40px 100px 20px 20px;
+}
+
+.projects h2 {
+	font-size: 32px;
+	color: #35A29F;
+}
+
+.projects-container {
+	display: flex;
+  	flex-direction: column;
+}
+
+.projects-container ul {
+	padding: 0;
+}
+
+.projects-container li {
+	list-style: none;
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+
+.projects-container h3 {
+	color: darkgray;
+	font-size: 24px;
+}
+
+.projects-container p {
+	color: darkgray;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.project-item {
+	display: block;
+	background-color: transparent;
+	border-radius: 12px;
+	padding: 6px 16px;
+	transition: background 0.5s;
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+.project-item:hover {
+	background-color: #35a29e2d;
+}
+
+.project-item:hover h3 {
+	color: #97FEED;
+	transition: color 0.5s;
+}
+
+footer {
+	display: block;
+	width: 25%;
+  	align-items: center;
+	align-content: center;
+  	padding: 0;
+  	text-align: center;
+}
+
+footer p {
+	margin: 20px 0 0 0;
+	font-size: 14px;
+	font-weight: 600;
+  	color: #084b4e;
+}
