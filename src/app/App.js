@@ -53,9 +53,15 @@ function App() {
 						<div className='projects-container'>
 							<ul>
 								<li>
+									<a className='project-item' href='https://contact-keeper-frontend-f0wo.onrender.com' target='_blank' rel='noreferrer'>
+										<h3>Contact Keeper</h3>
+										<p>CRUD Web application that manages contact information in a SQL database, built with the PERN stack (PostgreSQL, Express, React, Node.js)</p>
+									</a>
+								</li>
+								<li>
 									<a className='project-item' href='https://main.d291ovxt4pi42d.amplifyapp.com/' target='_blank' rel='noreferrer'>
 										<h3>Landing Page - Ame Home</h3>
-										<p>Personal landing page for a home products instagram shop, mainly developed in React.js</p>
+										<p>Landing page for a home products instagram shop, mainly developed in React.js</p>
 									</a>
 								</li>
 								<li>
@@ -67,7 +73,7 @@ function App() {
 								<li>
 									<a className='project-item' href='https://main.dviupdoo9we7s.amplifyapp.com/' target='_blank' rel='noreferrer'>
 										<h3>Time Zones Meeting Helper</h3>
-										<p>Web application to help users find the best time to meet with people in different time zones</p>
+										<p>Web application to help users find the best time to meet with people in different time zones, connected to TimeAPI</p>
 									</a>
 								</li>
 							</ul>
@@ -75,7 +81,7 @@ function App() {
 					</div>
 				</div>
 				<footer>	
-					<p>Portfolio coded in Visual Studio Code, all apps including this portfolio deployed with AWS Amplify.</p>
+					<p>Portfolio coded in Visual Studio Code, apps including this portfolio deployed with AWS Amplify and Render.com</p>
 				</footer>
 			</div>
     	</div>
